@@ -8,7 +8,7 @@ public class CibiPreferiti {
 		System.out.println("The last food in your chart is " + food[food.length - 1]);
 		
 		if (food.length % 2 == 0) {
-			System.out.println("Your middle chart food is " + food[food.length / 2 - 1]);
+			System.out.println("Your middle chart foods are " + food[food.length / 2 - 1] + " and " + food[food.length / 2]);
 		} else {
 			System.out.println("Your middle chart food is " + food[(int) food.length / 2]);
 		}
